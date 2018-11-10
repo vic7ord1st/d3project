@@ -1,10 +1,9 @@
 /*
-*    main.js
-*    Mastering Data Visualization with D3.js
-*    2.4 - Adding SVGs with D3
+*    Barcode.js
+* 
 */
 
-// read in the data and convert to integer
+// read in the data and convert to numbers
 d3.json('data/buildings.json').then(function(data) {	data.forEach(function(d){
 		d.height= +d.height;
 
